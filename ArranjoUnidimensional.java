@@ -5,7 +5,7 @@ public class ArranjoUnidimensional {
         int[] dados;
 
         // Inicialização do Array
-        dados = new int[10];
+        dados = new int[5];
 
         // Acessando do Array
         dados[0] = 3;
@@ -14,8 +14,8 @@ public class ArranjoUnidimensional {
         dados[3] = 2;
         dados[4] = 6;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < dados.length; i++) {
             System.out.println("dados[" + i + "] = " + dados[i]);
-        }        
+        }
     }
 }

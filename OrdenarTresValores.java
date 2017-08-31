@@ -4,13 +4,13 @@ public class OrdenarTresValores {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("Entre com o valor de A: ");
         int a = input.nextInt();
-        
+
         System.out.print("Entre com o valor de B: ");
         int b = input.nextInt();
-        
+
         System.out.print("Entre com o valor de C: ");
         int c = input.nextInt();
 
@@ -36,7 +36,7 @@ public class OrdenarTresValores {
                 } else {
                     System.out.printf("%s, %s, %s", a, b, c);
                 }
-            }            
+            }
         }
 
         System.out.println("");
